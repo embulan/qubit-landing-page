@@ -40,7 +40,7 @@ export default function Contact() {
             <div className="md:w-1/3">
               <Image
                 src="/assets/basic_smiling_2.png"
-                alt="BeAIr Bear Logo"
+                alt="Qubit Logo"
                 width={400}
                 height={300}
                 className="rounded-lg w-full h-auto object-cover"

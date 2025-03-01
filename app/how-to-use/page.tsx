@@ -2,7 +2,7 @@ export default function HowToUse() {
     const cards = Array.from({ length: 6 }, (_, i) => ({
       id: i + 1,
       title: `Title ${i + 1}`,
-      description: "Description text will go here. This explains how to use this specific feature of BeAIr.",
+      description: "Description text will go here. This explains how to use this specific feature of Qubit.",
     }))
   
     return (
@@ -26,7 +26,7 @@ export default function HowToUse() {
               animation: "float 3s ease-in-out infinite",
             }}
           >
-            How to Use BeAIr
+            How to Use Qubit
           </h1>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {cards.map((card) => (

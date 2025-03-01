@@ -10,7 +10,7 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter" })
 const fredoka = Fredoka({ subsets: ["latin"], variable: "--font-fredoka" })
 
 export const metadata: Metadata = {
-  title: "BeAIr - Your AI Teaching Assistant",
+  title: "Qubit - Your AI Teaching Assistant",
   description: "Personal AI teaching assistant for programming",
   icons: {
     icon: [

@@ -14,7 +14,7 @@ export default function NavBar() {
         <Link href="/" className="flex items-center gap-2">
           <Image
             src="/assets/basic_smiling_2.png"
-            alt="BeAIr Bear Logo"
+            alt="Qubit Logo"
             width={40}
             height={40}
             className="w-10 h-10"
@@ -23,7 +23,7 @@ export default function NavBar() {
               e.currentTarget.src = "/placeholder.svg?height=40&width=40"
             }}
           />
-          <span className="font-fredoka text-xl">BeAIr</span>
+          <span className="font-fredoka text-xl">Qubit</span>
         </Link>
         <div className="ml-auto flex gap-4">
           <Link

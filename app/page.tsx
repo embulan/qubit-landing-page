@@ -20,7 +20,7 @@ export default function Home() {
         <div className="relative flex flex-col items-center justify-center">
           <Image
             src="/assets/basic_smiling_2.png"
-            alt="BeAIr Bear Logo"
+            alt="Qubit Logo"
             width={300}
             height={300}
             className="z-10 mb-4"
@@ -40,7 +40,7 @@ export default function Home() {
                 textShadow: "2px 2px 4px rgba(0,0,0,0.1)",
               }}
             >
-              BeAIr
+              Qubit
             </h1>
             <p
               className="text-lg md:text-xl lg:text-2xl text-gray-600 max-w-lg mx-auto"
@@ -56,12 +56,12 @@ export default function Home() {
 
         <div className="mt-32">
           <div className="bg-white/80 backdrop-blur-sm rounded-xl shadow-lg border border-purple-100">
-            <h2 className="text-2xl font-bold text-center font-fredoka pt-6">About BeAIr</h2>
+            <h2 className="text-2xl text-center font-fredoka pt-6">About Qubit</h2>
             <div className="p-6 grid md:grid-cols-2 gap-8">
               <div className="flex items-center">
                 <div className="prose">
                   <p className="text-gray-600">
-                    Description content will go here. This space can be used to describe BeAIr's features, mission, and
+                    Description content will go here. This space can be used to describe Qubit's features, mission, and
                     benefits. The content will be displayed alongside the demo video for a comprehensive introduction to
                     the platform.
                   </p>

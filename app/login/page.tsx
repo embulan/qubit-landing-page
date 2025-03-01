@@ -27,7 +27,7 @@ export default function Login() {
               animation: "float 3s ease-in-out infinite",
             }}
           >
-            Login to BeAIr
+            Login to Qubit
           </h1>
 
           <Tabs defaultValue="student" className="w-full">
@@ -60,12 +60,12 @@ export default function Login() {
                 </div>
                 <div className="space-y-2">
                   <Label htmlFor="studentEmail" className="font-medium">
-                    BeAIr Email
+                    Qubit Email
                   </Label>
                   <Input
                     id="studentEmail"
                     type="email"
-                    placeholder="Enter your BeAIr email"
+                    placeholder="Enter your Qubit email"
                     className="border-purple-100 focus:border-purple-200 transition-colors"
                   />
                 </div>
@@ -113,12 +113,12 @@ export default function Login() {
                 </div>
                 <div className="space-y-2">
                   <Label htmlFor="instructorEmail" className="font-medium">
-                    BeAIr Email
+                    Qubit Email
                   </Label>
                   <Input
                     id="instructorEmail"
                     type="email"
-                    placeholder="Enter your BeAIr email"
+                    placeholder="Enter your Qubit email"
                     className="border-purple-100 focus:border-purple-200 transition-colors"
                   />
                 </div>
