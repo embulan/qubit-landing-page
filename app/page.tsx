@@ -61,9 +61,12 @@ export default function Home() {
               <div className="flex items-center">
                 <div className="prose">
                   <p className="text-gray-600">
-                    Description content will go here. This space can be used to describe Qubit's features, mission, and
-                    benefits. The content will be displayed alongside the demo video for a comprehensive introduction to
-                    the platform.
+                    Qubit was built to make coding accessible for everyone, everywhere. The world of programming is a vast realm of creativity, innovation, 
+                    and collaboration. However, with a sharp learning curve, it becomes difficult to know what to learn and where to go. Qubit is designed
+                    to bring the classroom with you - working both independently or with your instructor, Qubit can see your code, understand your perspective, 
+                    and provide questions, visualizations, and learning goals not to give you the answers, but to help you find them. Qubit also works with your instructor,
+                    providing an environment for them to find friction points within the class and help them understand the needs of the students. Explore the world of programming 
+                    and grow your programming journey with Qubit.
                   </p>
                 </div>
               </div>
