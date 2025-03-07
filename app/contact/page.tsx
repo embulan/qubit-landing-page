@@ -10,6 +10,35 @@ export default function Contact() {
     toast.success("Email copied to clipboard!")
   }
 
+  const teamMembers = [
+    {
+      id: 1,
+      name: "Dylan Nguyen",
+      description: "Description Description Description Description Description Description Description Description",
+      imageUrl: "/placeholder.svg?height=200&width=200",
+      linkedin: "https://www.linkedin.com/in/dylan-d-nguyen/",
+      email: "123@gmail.com"
+    },
+    {
+      id: 2,
+      name: "Xiaoquan Kong",
+      description: "Description Description Description Description Description Description Description Description",
+      imageUrl: "/assets/Xiaoquan_Kong.png",  //double check image size
+      linkedin: "https://www.linkedin.com/in/xiaoquankong/",
+      email: "123@gmail.com"
+    },
+    {
+      id: 3,
+      name: "Evan Bulan",
+      description: `Evan is a sophomore at Duke studying Mechanical Engineering and Computer Science. His primary interests are in
+      startups and entrepreneurship, robotics, operations/management, AI/ML, and web dev. He has experience working for numerous startups doing GTM and PM work. 
+      Outside of work, he sings for the Duke Pitchforks and is a member of The Cube LLC and Scale & Coin.`,
+      imageUrl: "/assets/Evan_Bulan.png",  //double check image size
+      linkedin: "https://www.linkedin.com/in/evan-bulan/",
+      email: "123@gmail.com"
+    }
+  ]
+
   return (
     <div className="min-h-screen pt-16 overflow-hidden">
       {/* Decorative Shapes */}
@@ -52,8 +81,12 @@ export default function Contact() {
             <div className="md:w-2/3">
               <h2 className="text-2xl font-fredoka mb-4">About CREATE</h2>
               <p className="text-gray-600 mb-4">
-                Description Description Description Description Description Description Description Description
-                Description Description Description Description Description Description Description
+              Duke's Center for Research & Engineering of AI Technology in Education (CREATE) develops and researches AI-based tools to improve 
+              teaching and learning, using the Duke University community as a living lab. While there is a lot of criticism and wariness of AI in 
+              the classroom, we believe there are implementations where AI can enable to welfare of students and teachers. We strive to build workflows and 
+              systems where AI serves as a mediator towards education, using pedagogical research to have AI adapt around and not impede the learning process. 
+              We are a diverse group of students, researchers, and educators who are passionate about using AI to improve education and we hope to keep building and iterating 
+              for the Duke community and beyond.
               </p>
             </div>
           </div>
@@ -77,25 +110,25 @@ export default function Contact() {
 
         {/* Team Members */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {[1, 2, 3].map((i) => (
+          {teamMembers.map((member) => (
             <div
-              key={i}
+              key={member.id}
               className="bg-white/80 backdrop-blur-sm rounded-xl shadow-lg border border-purple-100 p-6 flex flex-col items-center"
             >
               <Image
-                src="/placeholder.svg?height=200&width=200"
-                alt={`Team Member ${i}`}
+                src={member.imageUrl}
+                alt={`${member.name}`}
                 width={200}
                 height={200}
                 className="rounded-full w-40 h-40 object-cover mb-4"
               />
-              <h3 className="text-xl font-fredoka mb-2">Example Name</h3>
+              <h3 className="text-xl font-fredoka mb-2">{member.name}</h3>
               <p className="text-gray-600 text-center mb-4">
-                Description Description Description Description Description Description Description Description
+                {member.description}
               </p>
               <div className="flex gap-4 mt-auto">
                 <a
-                  href="https://linkedin.com"
+                  href={member.linkedin}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-600 hover:text-blue-600 transition-colors"
@@ -103,7 +136,7 @@ export default function Contact() {
                   <Linkedin className="w-6 h-6" />
                 </a>
                 <button
-                  onClick={() => copyEmail("123@gmail.com")}
+                  onClick={() => copyEmail(member.email)}
                   className="text-gray-600 hover:text-purple-600 transition-colors"
                 >
                   <Mail className="w-6 h-6" />

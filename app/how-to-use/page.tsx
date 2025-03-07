@@ -1,9 +1,42 @@
 export default function HowToUse() {
-    const cards = Array.from({ length: 6 }, (_, i) => ({
-      id: i + 1,
-      title: `Title ${i + 1}`,
-      description: "Description text will go here. This explains how to use this specific feature of Qubit.",
-    }))
+    const howToUseCards = [
+      {
+        id: 1,
+        title: "Getting Started",
+        description: "Learn how to set up your account and get Qubit in your programming environment.",
+        videoPlaceholder: "Getting Started Video"
+      },
+      {
+        id: 2,
+        title: "Make Your First Prompt",
+        description: "Feeling stuck on a problem? Make a prompt to Qubit and let it guide you towards a solution.",
+        videoPlaceholder: "Getting Started Video"
+      },
+      {
+        id: 3,
+        title: "Interacting with Qubit",
+        description: "Qubit is a special AI assistant - it knows the answer, but wants you to do the problem solving. Learn tips to prompting Qubit here.",
+        videoPlaceholder: "Getting Started Video"
+      },
+      {
+        id: 4,
+        title: "Visualizations with Qubit",
+        description: "Learn how to set up your account and take your first steps with Qubit.",
+        videoPlaceholder: "Getting Started Video"
+      },
+      // {                  //TODO: add videos here
+      //   id: 5,
+      //   title: "Getting Started",
+      //   description: "Learn how to set up your account and take your first steps with Qubit.",
+      //   videoPlaceholder: "Getting Started Video"
+      // },
+      // {
+      //   id: 6,
+      //   title: "Getting Started",
+      //   description: "Learn how to set up your account and take your first steps with Qubit.",
+      //   videoPlaceholder: "Getting Started Video"
+      // }
+    ];
   
     return (
       <div className="min-h-screen pt-16 overflow-hidden">
@@ -29,7 +62,7 @@ export default function HowToUse() {
             How to Use Qubit
           </h1>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {cards.map((card) => (
+            {howToUseCards.map((card) => (
               <div
                 key={card.id}
                 className="bg-white/80 backdrop-blur-sm rounded-xl shadow-lg overflow-hidden border border-purple-100 transition-transform hover:scale-105"
@@ -38,7 +71,7 @@ export default function HowToUse() {
                   <h3 className="text-xl font-semibold font-fredoka">{card.title}</h3>
                 </div>
                 <div className="aspect-video bg-gray-100/50 flex items-center justify-center text-gray-400">
-                  Video will go here
+                  {card.videoPlaceholder}
                 </div>
                 <div className="p-4">
                   <p className="text-gray-600">{card.description}</p>
