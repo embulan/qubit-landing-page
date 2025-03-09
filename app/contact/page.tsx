@@ -22,7 +22,11 @@ export default function Contact() {
     {
       id: 2,
       name: "Xiaoquan Kong",
-      description: "Description Description Description Description Description Description Description Description",
+      description: `Xiaoquan Kong is currently pursuing a Master of Engineering in Artificial Intelligence for Product Innovation at Duke University, where he serves 
+      as a Research Assistant at the CREATE (Center for Research & Engineering of AI Technology in Education). In the Qubit project, Xiaoquan is responsible for developing 
+      the backend dashboard, leveraging advanced AI and data analytics to empower educators in better understanding student progress, providing personalized guidance, 
+      and informing data-driven curriculum innovation. With extensive experience in algorithm design and machine learning across diverse sectors—including roles at Baidu, 
+      Geely, and Alibaba—Xiaoquan is passionate about applying cutting-edge AI technology to educational challenges to drive meaningful improvements for students and teachers alike.`,
       imageUrl: "/assets/Xiaoquan_Kong.png",  //double check image size
       linkedin: "https://www.linkedin.com/in/xiaoquankong/",
       email: "123@gmail.com"
