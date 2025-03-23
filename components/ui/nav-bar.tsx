@@ -60,7 +60,7 @@ export default function NavBar() {
               pathname === "/login" ? "bg-black text-white" : "bg-white text-black hover:bg-gray-100",
             )}
           >
-            Login
+            Sign In
           </Link>
         </div>
       </div>
