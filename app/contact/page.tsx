@@ -14,10 +14,11 @@ export default function Contact() {
     {
       id: 1,
       name: "Dylan Nguyen",
-      description: "Description Description Description Description Description Description Description Description",
+      description: `Dylan Nguyen is a junior at Duke University from Sydney, Australia, studying Electrical and Computer Engineering and Computer Science. This is his second year in the CREATE Lab and serves as the project lead for the Qubit bot. 
+      He has extensive experience within data science and software development, especially with projects handling LLMs, Deep Learning, and CV. He is a passionate developer always looking for methods to utilize technology for social good and environmental awareness.`,
       imageUrl: "/placeholder.svg?height=200&width=200",
       linkedin: "https://www.linkedin.com/in/dylan-d-nguyen/",
-      email: "123@gmail.com"
+      email: "dylan.nguyen@duke.edu"
     },
     {
       id: 2,
@@ -29,7 +30,7 @@ export default function Contact() {
       Geely, and Alibaba—Xiaoquan is passionate about applying cutting-edge AI technology to educational challenges to drive meaningful improvements for students and teachers alike.`,
       imageUrl: "/assets/Xiaoquan_Kong.png",  //double check image size
       linkedin: "https://www.linkedin.com/in/xiaoquankong/",
-      email: "123@gmail.com"
+      email: "xiaoquan.kong@duke.edu"
     },
     {
       id: 3,
@@ -39,7 +40,7 @@ export default function Contact() {
       Outside of work, he sings for the Duke Pitchforks and is a member of The Cube LLC and Scale & Coin.`,
       imageUrl: "/assets/Evan_Bulan.png",  //double check image size
       linkedin: "https://www.linkedin.com/in/evan-bulan/",
-      email: "123@gmail.com"
+      email: "evan.bulan@duke.edu"
     }
   ]
 

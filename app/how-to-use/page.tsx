@@ -10,32 +10,32 @@ export default function HowToUse() {
         id: 2,
         title: "Make Your First Prompt",
         description: "Feeling stuck on a problem? Make a prompt to Qubit and let it guide you towards a solution.",
-        videoPlaceholder: "Getting Started Video"
+        videoPlaceholder: "Make Your First Prompt Video"
       },
       {
         id: 3,
         title: "Interacting with Qubit",
         description: "Qubit is a special AI assistant - it knows the answer, but wants you to do the problem solving. Learn tips to prompting Qubit here.",
-        videoPlaceholder: "Getting Started Video"
+        videoPlaceholder: "Interacting with Qubit Video"
       },
       {
         id: 4,
         title: "Visualizations with Qubit",
         description: "Learn how to set up your account and take your first steps with Qubit.",
-        videoPlaceholder: "Getting Started Video"
+        videoPlaceholder: "Visualizations with Qubit Video"
       },
-      // {                  //TODO: add videos here
-      //   id: 5,
-      //   title: "Getting Started",
-      //   description: "Learn how to set up your account and take your first steps with Qubit.",
-      //   videoPlaceholder: "Getting Started Video"
-      // },
-      // {
-      //   id: 6,
-      //   title: "Getting Started",
-      //   description: "Learn how to set up your account and take your first steps with Qubit.",
-      //   videoPlaceholder: "Getting Started Video"
-      // }
+      {                  //TODO: add videos here
+        id: 5,
+        title: "Instructor Dashboard",
+        description: "Qubit is a teaching assistant for both students and instructors. See how Qubit's instructor dashboard manages student interaction with Qubit.",
+        videoPlaceholder: "Instructor Dashboard Video"
+      },
+      {
+        id: 6,
+        title: "The CREATE Lab",
+        description: "CREATE is Duke's hub for the intersection of AI and pedagogy. Learn more about our mission.",
+        videoPlaceholder: "The CREATE Lab Video"
+      }
     ];
   
     return (
